@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+body {
+	background-color: #CCCCFF;
+	background-size: 100%;
+	min-width: 768px;
+	font-size: 100%;
+	line-height: 1.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	display:block;
+	padding: 4rem;
+	line-height: 3rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: .5rem 0;
+}
+
+h3 {
+	font-size: 1rem;
+	margin: .5rem 0;
+}
+
+.wrapper {
+	padding: 9rem 15% 3rem;
+}
+
+/*----------------------------------------Masthead*/
+
+.masthead {
+	position: fixed;
+	width: 100%;
+	background-color: #303;
+	height: 8rem;
+}
+
+.logo {
+	width: 6rem;
+	position: absolute;
+	left: 2%;
+	top: 1rem;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a,
+nav a:link {
+	display: inline-block;
+	padding: 1.5rem 5%; 
+	margin: 1.5rem 5%;
+	background-color:#6699CC;
+	text-decoration:none;
+	color: #000;
+}
+
+nav a:hover {
+	background: #333;
+} 
+
+
+/* ------------------------------------------- Home Content */
+
+.home {
+	height: 40rem;
+	text-align: center;
+	padding: 3rem;
+	color: #303;
+}
+
+.headline1 {
+	padding-top: 3rem;
+	font-size: 2.5rem;
+}
+
+.headline2 {
+	font-size: 2.5rem;
+}
+
+.headline3 {
+	font-size: 4rem;
+}
+
+.headline4 {
+	float: right;
+	color: #6699CC;
+}
+
+/* ------------------------------------------- Portfolio Content */
+
+.artwork {
+	width: 30%;
+	margin-right: 5%;
+	float:left;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	color: #303;
+}
+
+.artwork h2 {
+	color: #6699CC
+}
+
+.artwork:nth-child(3n+3) { /* Every 3rd div will have these proprties */ 
+	margin-right: 0;
+}
+
+/* ------------------------------------------- About Content */
+
+.about h2{
+	color: #6699CC;
+}
+
+.about h3{
+	color: #6699CC;
+}
+
+.portrait {
+	width:30%;
+	float:left;
+}
+
+.about-column {
+	width: 70%;
+	float: right;
+	padding: 0 0 3rem 5%; 
+}
+
+.about p {
+	color: #303
+}
+
+/* ------------------------------------------- Footer */
+
+.bottom {
+	background-color:#303;
+	clear: both;
+	padding: 0 35%;
+	overflow:hidden;
+	height: 21rem;
+
+}
+
+.bottom p {
+	text-align: center;
+	color: #6699CC;
+}
+
+.bottom ul {
+	padding: 5%;
+	overflow:hidden;
+}
+
+.bottom li {
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+.bottom li:last-child {
+	margin-right: 0;
+}
+
+.bucket {
+	width: 45%;
+	margin-right: 5%;
+	float:left;
+	padding: 3rem;
+	color: #6699CC;
+}
+
+
+
+.bucket:nth-child(2n+2) { /* Every 2nd div will have these proprties */ 
+	margin-right: 0;
+}
